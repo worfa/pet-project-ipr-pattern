@@ -1,8 +1,6 @@
 package model.door;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.ToString;
+import lombok.*;
 import model.Color;
 import model.lock.Lock;
 import model.Material;
@@ -11,6 +9,7 @@ import model.door.strategy.OpenCloseDoorStrategy;
 @ToString
 @Getter
 @AllArgsConstructor
+@EqualsAndHashCode
 public class Door {
 
     private OpenCloseDoorStrategy openCloseDoorStrategy;

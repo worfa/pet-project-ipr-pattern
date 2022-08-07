@@ -69,7 +69,7 @@ public class DefaultDoorBuilder implements DoorBuilder {
             return door;
         }
 
-        throw new NullPointerException("Замок не создан, ошибка в поле lockType: null");
+        throw new NullPointerException("Дверь не создана");
     }
 
     private boolean validateDoor() {

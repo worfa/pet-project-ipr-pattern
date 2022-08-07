@@ -1,7 +1,9 @@
 package model.door.strategy.Impl;
 
+import lombok.EqualsAndHashCode;
 import model.door.strategy.OpenCloseDoorStrategy;
 
+@EqualsAndHashCode
 public class OpenCloseDoorStrategyUp implements OpenCloseDoorStrategy {
 
     @Override

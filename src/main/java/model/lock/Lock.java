@@ -1,6 +1,7 @@
 package model.lock;
 
 import lombok.AllArgsConstructor;
+import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.ToString;
 import model.Key;
@@ -12,6 +13,7 @@ import model.lock.processor.AuthProcessor;
 @ToString
 @Getter
 @AllArgsConstructor
+@EqualsAndHashCode
 public class Lock {
 
     private Key key;
